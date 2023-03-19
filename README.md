@@ -25,7 +25,7 @@ the resource providers are :
 
 . IDP(identity data provider)
 
-***pim pam paw***
+***what is pim pam paw ?***
 
 Privileged Identity Management (PIM) and Privileged Access Management (PAM) are security practices that are commonly used in organizations to protect sensitive data and systems.
 
