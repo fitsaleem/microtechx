@@ -1,4 +1,4 @@
-# micro-teach
+# microtechx
 #fellowship program
 
 #class 01:
