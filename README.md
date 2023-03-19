@@ -19,7 +19,7 @@ the resource providers are :
 
 3: gcp
 
-*** what is enterprise access***
+***what is enterprise access***
 
 . IAM(identity access managment)
 
