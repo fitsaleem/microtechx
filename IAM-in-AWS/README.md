@@ -21,3 +21,7 @@
 *4: Test the access by logging in as one of the developers and accessing the S3 bucket.*
 
 *By using IAM in this way, you can easily manage access to your AWS resources, and make sure that your developers have the right level of access to do their job, while still maintaining security and compliance. You can also add or remove developers from the "Developers" group as needed, and the access policy will automatically apply to them.*
+
+# why aws recomanded to do not use root user ?
+
+*AWS recommends not using the root user for security reasons. The root user is the initial user account created when you sign up for an AWS account, and it has unlimited access to all AWS services and resources within that account. This makes it a high-value target for attackers, and if the root user's credentials are compromised, it can result in a significant security breach.*
