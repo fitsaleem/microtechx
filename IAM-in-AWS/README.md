@@ -25,3 +25,34 @@
 # why aws recomanded to do not use root user ?
 
 *AWS recommends not using the root user for security reasons. The root user is the initial user account created when you sign up for an AWS account, and it has unlimited access to all AWS services and resources within that account. This makes it a high-value target for attackers, and if the root user's credentials are compromised, it can result in a significant security breach.*
+
+# What is IAM limits In AWS ?
+
+*Yes, AWS has set certain limits for IAM resources to ensure the stability and reliability of the IAM service. These limits may vary by region, and some limits can be increased by contacting AWS support. Here are some common IAM limits*
+
+1: Users: Each AWS account can have up to 5,000 IAM users. This limit can be increased by contacting AWS support.
+
+2: Groups: Each AWS account can have up to 300 IAM groups.
+
+3: Roles: Each AWS account can have up to 1,000 IAM roles.
+
+4: Policies: Each IAM entity (user, group, or role) can have up to 10 managed policies attached to it, and each managed policy can have up to 6,144 characters in its policy document.
+
+5: Policy versions: Each managed policy can have up to 5 versions.
+
+6: Role policies: Each IAM role can have up to 10 inline policies attached to it.
+
+7: Instance profiles: Each AWS account can have up to 1,000 instance profiles.
+
+8: Role sessions: Each role session can last up to 12 hours.
+
+9: MFA devices: Each IAM user can have up to 2 active MFA devices at a time.
+
+*It's important to be aware of these limits when planning your IAM implementation and ensure that you don't exceed them. If you do hit a limit, you can contact AWS support to request an increase or consider implementing alternative strategies to manage your resources.*
+
+
+
+
+
+
+
