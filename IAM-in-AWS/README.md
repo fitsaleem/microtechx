@@ -51,7 +51,13 @@
 *It's important to be aware of these limits when planning your IAM implementation and ensure that you don't exceed them. If you do hit a limit, you can contact AWS support to request an increase or consider implementing alternative strategies to manage your resources.*
 
 
+# IAM Features in AWS:
 
+*IAM has several important features that make it a powerful tool for managing access to AWS resources. Here are some of the most important features of IAM:*
+
+1: Multifactor authentication (MFA): IAM supports MFA, which requires users to provide a second form of authentication (such as a code from a mobile app or hardware token) in addition to their password. This provides an extra layer of security and helps prevent unauthorized access to your AWS resources.
+
+2: Federation: IAM supports federation with external identity providers (such as Active Directory) using standard protocols like SAML and OpenID Connect. This allows you to use your existing identity management infrastructure and extend it to your AWS resources.
 
 
 
