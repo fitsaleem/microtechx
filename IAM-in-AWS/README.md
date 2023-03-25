@@ -15,7 +15,9 @@
 *1: Create an IAM group called "Developers" and add the developers to the group.*
 
 *2: Create an IAM policy that allows the "Developers" group to read and write objects to the S3 bucket.*
+
 *3: Attach the policy to the "Developers" group.*
+
 *4: Test the access by logging in as one of the developers and accessing the S3 bucket.*
 
 *By using IAM in this way, you can easily manage access to your AWS resources, and make sure that your developers have the right level of access to do their job, while still maintaining security and compliance. You can also add or remove developers from the "Developers" group as needed, and the access policy will automatically apply to them.*
